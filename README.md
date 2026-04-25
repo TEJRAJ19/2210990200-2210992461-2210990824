@@ -114,10 +114,6 @@ python main.py
 - tensorflow (for LSTM)
 - hmmlearn, yfinance
 
-## 📄 License
-
-MIT License
-
 ## 🤝 Contact
 
 Created as a quantitative trading research project.
