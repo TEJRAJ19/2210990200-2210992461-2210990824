@@ -7,15 +7,16 @@
 | **Project Title** | NIFTY 50 Quantitative Trading Strategy |
 | **Project Type** | Research Paper |
 | **Roll Numbers** | 2210990200, 2210992461, 2210990824 |
+| **Team Members** | Avinash Kumar Jha, Tej Raj, Shivam Laul |
 | **Submission Status** | ✅ Submitted |
 
 ## 👥 Team Details
 
-| Sr. No. | Roll Number |
-|---------|-------------|
-| 1 | 2210990200 |
-| 2 | 2210992461 |
-| 3 | 2210990824 |
+| Sr. No. | Name | Roll Number |
+|---------|------|-------------|
+| 1 | Avinash Kumar Jha | 2210990200 |
+| 2 | Tej Raj | 2210992461 |
+| 3 | Shivam Laul | 2210990824 |
 
 ## 📄 Submission Status
 
