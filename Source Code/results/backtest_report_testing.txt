@@ -1,0 +1,33 @@
+============================================================
+BACKTEST REPORT - TESTING PERIOD
+============================================================
+
+PERFORMANCE METRICS
+----------------------------------------
+  Total Return:        4428.79 pts (4.43%)
+  Sharpe Ratio:        5.841
+  Sortino Ratio:       4.217
+  Calmar Ratio:        0.952
+  Max Drawdown:        -162.73 pts (0.16%)
+
+TRADE STATISTICS
+----------------------------------------
+  Total Trades:        57
+  Win Rate:            61.40%
+  Profit Factor:       6.04
+  Avg Trade PnL:       77.70 pts
+  Avg Win:             151.65 pts
+  Avg Loss:            -39.95 pts
+  Avg Duration:        2781.4 candles
+
+BREAKDOWN BY POSITION
+----------------------------------------
+  Long Trades:         28 (PnL: 770.55 pts)
+  Short Trades:        29 (PnL: 3658.24 pts)
+
+BREAKDOWN BY REGIME
+----------------------------------------
+  Uptrend:          28 trades (PnL: 770.55 pts)
+  Downtrend:          29 trades (PnL: 3658.24 pts)
+
+============================================================

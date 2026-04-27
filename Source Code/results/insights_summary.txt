@@ -1,0 +1,89 @@
+======================================================================
+TASK 6.3: INSIGHTS SUMMARY
+======================================================================
+
+1. OUTLIER ANALYSIS
+--------------------------------------------------
+   Total Trades:           182
+   Outlier Trades:         3
+   Outlier Percentage:     1.65%
+   Outlier PnL:            2718.87 pts
+   % of Total PnL:         26.99%
+
+2. AVERAGE PNL COMPARISON
+--------------------------------------------------
+   Outlier Avg PnL:        906.29 pts
+   Normal Profitable Avg:  128.25 pts
+   Losing Trade Avg:       -47.07 pts
+   Overall Avg:            55.34 pts
+   Outlier/Normal Ratio:   7.07x
+
+3. REGIME PATTERNS
+--------------------------------------------------
+   Uptrend:
+      Trades: 87 (47.8%)
+      Avg PnL: 37.09 pts
+      Total PnL: 3226.61 pts
+      Outliers in Regime: 2 (2.3%)
+   Downtrend:
+      Trades: 95 (52.2%)
+      Avg PnL: 72.06 pts
+      Total PnL: 6845.79 pts
+      Outliers in Regime: 1 (1.05%)
+
+4. TIME-OF-DAY PATTERNS
+--------------------------------------------------
+   First Hour (9:15-10:15):
+      Trades: 88 (48.35%)
+      Avg PnL: 58.97 pts
+      Win Rate: 45.45%
+      Outliers: 2
+   Mid-Morning (10:15-12:00):
+      Trades: 70 (38.46%)
+      Avg PnL: 79.09 pts
+      Win Rate: 70.0%
+      Outliers: 1
+   Afternoon (12:00-14:00):
+      Trades: 15 (8.24%)
+      Avg PnL: -23.91 pts
+      Win Rate: 20.0%
+      Outliers: 0
+   Last Hour (14:00-15:30):
+      Trades: 9 (4.95%)
+      Avg PnL: -32.71 pts
+      Win Rate: 11.11%
+      Outliers: 0
+
+5. IV CHARACTERISTICS
+--------------------------------------------------
+   Outlier Avg IV:         0.1541
+   Normal Avg IV:          0.157
+   Overall Avg IV:         0.1562
+   Outlier IV Spread:      -0.0064
+   Normal IV Spread:       -0.0113
+   High IV Trades:         46
+   High IV Win Rate:       56.52%
+
+6. DISTINGUISHING FEATURES
+--------------------------------------------------
+   Most Distinguishing:    atr
+   Significant Features:   atr, ema_gap, volatility
+
+   Feature Details:
+      atr: Outlier=42.6533, Normal=11.1698, Diff=281.86%, p=0.0 ***
+      ema_gap: Outlier=29.007, Normal=10.0277, Diff=189.27%, p=0.0085 ***
+      pcr_oi: Outlier=1.0297, Normal=1.0, Diff=2.97%, p=0.4919 
+      avg_iv: Outlier=0.1541, Normal=0.157, Diff=-1.87%, p=0.5461 
+      volatility: Outlier=0.225, Normal=0.0751, Diff=199.66%, p=0.0005 ***
+      atm_call_delta: Outlier=0.5534, Normal=0.5356, Diff=3.32%, p=0.3496 
+
+======================================================================
+KEY TAKEAWAYS
+======================================================================
+1. Only 1.65% of trades are outliers, but they contribute 26.99% of total PnL
+2. Outlier trades earn 7.07x more than normal profitable trades
+3. Key distinguishing features: atr, ema_gap, volatility
+4. Best regime for trading: Downtrend (Avg PnL: 72.06 pts)
+5. Best time to trade: Mid-Morning (10:15-12:00) (Avg PnL: 79.09 pts)
+
+======================================================================

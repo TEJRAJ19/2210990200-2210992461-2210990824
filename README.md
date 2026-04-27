@@ -1,5 +1,34 @@
 # NIFTY 50 Quantitative Trading Strategy
 
+## 📋 Project Information
+
+| Field | Details |
+|-------|---------|
+| **Project Title** | NIFTY 50 Quantitative Trading Strategy |
+| **Project Type** | Research Paper |
+| **Roll Numbers** | 2210990200, 2210992461, 2210990824 |
+| **Submission Status** | ✅ Submitted |
+
+## 👥 Team Details
+
+| Sr. No. | Roll Number |
+|---------|-------------|
+| 1 | 2210990200 |
+| 2 | 2210992461 |
+| 3 | 2210990824 |
+
+## 📄 Submission Status
+
+| Document | Status |
+|----------|--------|
+| Research Paper | ✅ Submitted |
+| Final Project Report | ✅ Submitted |
+| Source Code | ✅ Submitted |
+
+---
+
+## 📝 About the Project
+
 A comprehensive quantitative trading system for NIFTY 50 featuring regime detection, machine learning trade filtering, and in-depth performance analysis.
 
 ## 🎯 Key Results
@@ -23,32 +52,45 @@ A comprehensive quantitative trading system for NIFTY 50 featuring regime detect
 ## 🏗️ Project Structure
 
 ```
-quant-project/
-├── main.py                 # Main execution script
-├── requirements.txt        # Dependencies
-├── src/
-│   ├── config.py          # Configuration
-│   ├── data_fetcher.py    # Data acquisition
-│   ├── data_cleaner.py    # Data cleaning
-│   ├── data_merger.py     # Data merging
-│   ├── feature_engineering.py
-│   ├── regime_detection.py # HMM implementation
-│   ├── strategy.py        # Trading strategy
-│   ├── backtester.py      # Performance metrics
-│   ├── ml_models.py       # XGBoost & LSTM
-│   ├── ml_backtester.py   # ML-enhanced backtesting
-│   ├── trade_analysis.py  # Outlier detection
-│   ├── insights_summary.py
-│   └── enhanced_ml.py     # Ensemble model
-├── data/                   # Generated data files
-├── plots/                  # Visualizations
-├── models/                 # Saved ML models
-└── results/                # Reports and analysis
+NIFTY-50-Quantitative-Trading-Strategy (2210990200, 2210992461, 2210990824)/
+│
+├── Source Code/
+│   ├── src/
+│   │   ├── __init__.py
+│   │   ├── config.py              # Configuration
+│   │   ├── data_fetcher.py        # Data acquisition
+│   │   ├── data_cleaner.py        # Data cleaning
+│   │   ├── data_merger.py         # Data merging
+│   │   ├── feature_engineering.py # Feature engineering
+│   │   ├── regime_detection.py    # HMM implementation
+│   │   ├── strategy.py           # Trading strategy
+│   │   ├── backtester.py         # Performance metrics
+│   │   ├── ml_models.py          # XGBoost & LSTM
+│   │   ├── ml_backtester.py      # ML-enhanced backtesting
+│   │   ├── trade_analysis.py     # Outlier detection
+│   │   ├── insights_summary.py   # Insights generation
+│   │   └── enhanced_ml.py        # Ensemble model
+│   ├── main.py                    # Main execution script
+│   ├── run_ml_demo.py             # ML demo runner
+│   ├── requirements.txt           # Dependencies
+│   ├── plots/                     # Visualizations
+│   └── results/                   # Reports and analysis
+│
+├── Report/
+│   └── Quantitative_Trading_Abstract_Final_Formatted.docx
+│
+├── Documents/
+│   └── 2210990200,2210992461,2210990824_Research__paper.docx
+│
+└── README.md
 ```
 
 ## 🚀 Quick Start
 
 ```bash
+# Navigate to source code
+cd "Source Code"
+
 # Install dependencies
 pip install -r requirements.txt
 

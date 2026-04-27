@@ -1,0 +1,38 @@
+============================================================
+DATA CLEANING REPORT
+Generated: 2026-04-25 23:15:31
+============================================================
+
+
+SPOT DATA
+----------------------------------------
+  missing_values_filled: 0
+  invalid_ohlc_fixed: 0
+  outliers_removed: 364
+  duplicates_removed: 0
+  original_rows: 18450
+  final_rows: 18450
+
+FUTURES DATA
+----------------------------------------
+  missing_values_filled: 0
+  rollovers_detected: 0
+  invalid_ohlc_fixed: 0
+  duplicates_removed: 0
+  original_rows: 18450
+  final_rows: 18450
+
+OPTIONS DATA
+----------------------------------------
+  missing_values_filled: 0
+  duplicates_removed: 0
+  original_rows: 18450
+  final_rows: 18450
+
+ALIGNMENT DATA
+----------------------------------------
+  final_aligned_rows: 18450
+
+============================================================
+CLEANING COMPLETE
+============================================================

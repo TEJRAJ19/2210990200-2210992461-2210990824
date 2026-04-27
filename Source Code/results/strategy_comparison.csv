@@ -1,0 +1,4 @@
+Strategy,Total Trades,Total Return,Win Rate,Sharpe,Max DD,Profit Factor
+BASELINE,182,10072.40,51.1%,4.182,-0.8%,3.40
+XGBOOST,93,14261.44,100.0%,6.366,0.0%,14261.44
+LSTM,69,6460.02,73.9%,3.710,-0.8%,5.19
