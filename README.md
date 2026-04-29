@@ -78,10 +78,11 @@ NIFTY-50-Quantitative-Trading-Strategy (2210990200, 2210992461, 2210990824)/
 │   └── results/                   # Reports and analysis
 │
 ├── Report and PPT/
-│   └── Quantitative_Trading_Abstract_Final_Formatted.docx
+│   ├── Project Report IOHE.docx
+│   └── IOHE_PPT.pptx
 │
 ├── IPR Submission Proof/
-│   └── 2210990200,2210992461,2210990824_Research__paper.docx
+│   └── Research__paper.docx
 │
 └── README.md
 ```
